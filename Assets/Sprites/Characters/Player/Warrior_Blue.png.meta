@@ -317,10 +317,10 @@ TextureImporter:
       name: Warrior_Blue_0
       rect:
         serializedVersion: 2
-        x: 62
-        y: 1399
-        width: 80
-        height: 93
+        x: 63
+        y: 1400
+        width: 78
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +339,10 @@ TextureImporter:
       name: Warrior_Blue_1
       rect:
         serializedVersion: 2
-        x: 254
-        y: 1399
-        width: 80
-        height: 93
+        x: 255
+        y: 1400
+        width: 78
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +361,10 @@ TextureImporter:
       name: Warrior_Blue_2
       rect:
         serializedVersion: 2
-        x: 445
-        y: 1399
-        width: 82
-        height: 91
+        x: 446
+        y: 1400
+        width: 80
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,10 +383,10 @@ TextureImporter:
       name: Warrior_Blue_3
       rect:
         serializedVersion: 2
-        x: 637
-        y: 1399
-        width: 82
-        height: 89
+        x: 638
+        y: 1400
+        width: 80
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,10 +405,10 @@ TextureImporter:
       name: Warrior_Blue_4
       rect:
         serializedVersion: 2
-        x: 830
-        y: 1399
-        width: 80
-        height: 90
+        x: 831
+        y: 1400
+        width: 78
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,10 +427,10 @@ TextureImporter:
       name: Warrior_Blue_5
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 1399
-        width: 80
-        height: 93
+        x: 1023
+        y: 1400
+        width: 78
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,10 +449,10 @@ TextureImporter:
       name: Warrior_Blue_6
       rect:
         serializedVersion: 2
-        x: 70
-        y: 1207
-        width: 62
-        height: 95
+        x: 71
+        y: 1208
+        width: 60
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -471,10 +471,10 @@ TextureImporter:
       name: Warrior_Blue_7
       rect:
         serializedVersion: 2
-        x: 259
-        y: 1207
-        width: 71
-        height: 96
+        x: 260
+        y: 1208
+        width: 69
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,10 +493,10 @@ TextureImporter:
       name: Warrior_Blue_8
       rect:
         serializedVersion: 2
-        x: 447
-        y: 1207
-        width: 80
-        height: 82
+        x: 448
+        y: 1208
+        width: 78
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,10 +515,10 @@ TextureImporter:
       name: Warrior_Blue_9
       rect:
         serializedVersion: 2
-        x: 629
-        y: 1207
-        width: 64
-        height: 95
+        x: 630
+        y: 1208
+        width: 62
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -537,10 +537,10 @@ TextureImporter:
       name: Warrior_Blue_10
       rect:
         serializedVersion: 2
-        x: 694
-        y: 1232
-        width: 32
-        height: 57
+        x: 695
+        y: 1233
+        width: 30
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -559,10 +559,10 @@ TextureImporter:
       name: Warrior_Blue_11
       rect:
         serializedVersion: 2
-        x: 824
-        y: 1207
-        width: 61
-        height: 96
+        x: 825
+        y: 1208
+        width: 59
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,10 +581,10 @@ TextureImporter:
       name: Warrior_Blue_12
       rect:
         serializedVersion: 2
-        x: 883
-        y: 1227
-        width: 32
-        height: 57
+        x: 884
+        y: 1228
+        width: 30
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,10 +603,10 @@ TextureImporter:
       name: Warrior_Blue_13
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 1207
-        width: 81
-        height: 82
+        x: 1023
+        y: 1208
+        width: 79
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -625,10 +625,10 @@ TextureImporter:
       name: Warrior_Blue_14
       rect:
         serializedVersion: 2
-        x: 57
-        y: 1015
-        width: 73
-        height: 110
+        x: 58
+        y: 1016
+        width: 71
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -647,10 +647,10 @@ TextureImporter:
       name: Warrior_Blue_15
       rect:
         serializedVersion: 2
-        x: 248
-        y: 1015
-        width: 64
-        height: 99
+        x: 249
+        y: 1016
+        width: 62
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -669,10 +669,10 @@ TextureImporter:
       name: Warrior_Blue_16
       rect:
         serializedVersion: 2
-        x: 296
-        y: 1067
-        width: 25
-        height: 62
+        x: 297
+        y: 1068
+        width: 23
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -691,10 +691,10 @@ TextureImporter:
       name: Warrior_Blue_17
       rect:
         serializedVersion: 2
-        x: 440
-        y: 1015
-        width: 64
-        height: 99
+        x: 441
+        y: 1016
+        width: 62
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -713,10 +713,10 @@ TextureImporter:
       name: Warrior_Blue_18
       rect:
         serializedVersion: 2
-        x: 488
-        y: 1067
-        width: 25
-        height: 62
+        x: 489
+        y: 1068
+        width: 23
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -735,10 +735,10 @@ TextureImporter:
       name: Warrior_Blue_19
       rect:
         serializedVersion: 2
-        x: 651
-        y: 1015
-        width: 53
-        height: 90
+        x: 652
+        y: 1016
+        width: 51
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -757,10 +757,10 @@ TextureImporter:
       name: Warrior_Blue_20
       rect:
         serializedVersion: 2
-        x: 696
-        y: 1014
-        width: 64
-        height: 114
+        x: 697
+        y: 1015
+        width: 62
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -779,10 +779,10 @@ TextureImporter:
       name: Warrior_Blue_21
       rect:
         serializedVersion: 2
-        x: 841
-        y: 1012
-        width: 109
-        height: 94
+        x: 842
+        y: 1013
+        width: 107
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -801,10 +801,10 @@ TextureImporter:
       name: Warrior_Blue_22
       rect:
         serializedVersion: 2
-        x: 1026
-        y: 1015
-        width: 102
-        height: 91
+        x: 1027
+        y: 1016
+        width: 100
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -823,10 +823,10 @@ TextureImporter:
       name: Warrior_Blue_23
       rect:
         serializedVersion: 2
-        x: 33
-        y: 823
-        width: 84
-        height: 91
+        x: 34
+        y: 824
+        width: 82
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -845,10 +845,10 @@ TextureImporter:
       name: Warrior_Blue_24
       rect:
         serializedVersion: 2
-        x: 223
-        y: 823
-        width: 86
-        height: 91
+        x: 224
+        y: 824
+        width: 84
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -867,10 +867,10 @@ TextureImporter:
       name: Warrior_Blue_25
       rect:
         serializedVersion: 2
-        x: 415
-        y: 823
-        width: 86
-        height: 91
+        x: 416
+        y: 824
+        width: 84
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -889,10 +889,10 @@ TextureImporter:
       name: Warrior_Blue_26
       rect:
         serializedVersion: 2
-        x: 633
-        y: 813
-        width: 125
-        height: 102
+        x: 634
+        y: 814
+        width: 123
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -911,10 +911,10 @@ TextureImporter:
       name: Warrior_Blue_27
       rect:
         serializedVersion: 2
-        x: 827
-        y: 823
-        width: 68
-        height: 96
+        x: 828
+        y: 824
+        width: 66
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -933,10 +933,10 @@ TextureImporter:
       name: Warrior_Blue_28
       rect:
         serializedVersion: 2
-        x: 896
-        y: 832
-        width: 55
-        height: 69
+        x: 897
+        y: 833
+        width: 53
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -955,10 +955,10 @@ TextureImporter:
       name: Warrior_Blue_29
       rect:
         serializedVersion: 2
-        x: 904
-        y: 824
-        width: 16
-        height: 36
+        x: 905
+        y: 825
+        width: 14
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -977,10 +977,10 @@ TextureImporter:
       name: Warrior_Blue_30
       rect:
         serializedVersion: 2
-        x: 1021
-        y: 823
-        width: 87
-        height: 90
+        x: 1022
+        y: 824
+        width: 85
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -999,10 +999,10 @@ TextureImporter:
       name: Warrior_Blue_31
       rect:
         serializedVersion: 2
-        x: 57
-        y: 631
-        width: 80
-        height: 103
+        x: 58
+        y: 632
+        width: 78
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1021,10 +1021,10 @@ TextureImporter:
       name: Warrior_Blue_32
       rect:
         serializedVersion: 2
-        x: 246
-        y: 631
-        width: 66
-        height: 105
+        x: 247
+        y: 632
+        width: 64
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1043,10 +1043,10 @@ TextureImporter:
       name: Warrior_Blue_33
       rect:
         serializedVersion: 2
-        x: 306
-        y: 674
-        width: 25
-        height: 62
+        x: 307
+        y: 675
+        width: 23
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1065,10 +1065,10 @@ TextureImporter:
       name: Warrior_Blue_34
       rect:
         serializedVersion: 2
-        x: 438
-        y: 631
-        width: 66
-        height: 105
+        x: 439
+        y: 632
+        width: 64
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1087,10 +1087,10 @@ TextureImporter:
       name: Warrior_Blue_35
       rect:
         serializedVersion: 2
-        x: 498
-        y: 674
-        width: 25
-        height: 62
+        x: 499
+        y: 675
+        width: 23
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1109,10 +1109,10 @@ TextureImporter:
       name: Warrior_Blue_36
       rect:
         serializedVersion: 2
-        x: 621
-        y: 588
-        width: 120
-        height: 139
+        x: 622
+        y: 589
+        width: 118
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1131,10 +1131,10 @@ TextureImporter:
       name: Warrior_Blue_37
       rect:
         serializedVersion: 2
-        x: 808
-        y: 600
-        width: 91
-        height: 126
+        x: 809
+        y: 601
+        width: 89
+        height: 124
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1153,10 +1153,10 @@ TextureImporter:
       name: Warrior_Blue_38
       rect:
         serializedVersion: 2
-        x: 1013
-        y: 627
-        width: 68
-        height: 101
+        x: 1014
+        y: 628
+        width: 66
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1175,10 +1175,10 @@ TextureImporter:
       name: Warrior_Blue_39
       rect:
         serializedVersion: 2
-        x: 35
-        y: 439
-        width: 82
-        height: 95
+        x: 36
+        y: 440
+        width: 80
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1197,10 +1197,10 @@ TextureImporter:
       name: Warrior_Blue_40
       rect:
         serializedVersion: 2
-        x: 226
-        y: 439
-        width: 83
-        height: 96
+        x: 227
+        y: 440
+        width: 81
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1219,10 +1219,10 @@ TextureImporter:
       name: Warrior_Blue_41
       rect:
         serializedVersion: 2
-        x: 418
-        y: 439
-        width: 83
-        height: 96
+        x: 419
+        y: 440
+        width: 81
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1241,10 +1241,10 @@ TextureImporter:
       name: Warrior_Blue_42
       rect:
         serializedVersion: 2
-        x: 614
-        y: 411
-        width: 148
-        height: 119
+        x: 615
+        y: 412
+        width: 146
+        height: 117
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1263,10 +1263,10 @@ TextureImporter:
       name: Warrior_Blue_43
       rect:
         serializedVersion: 2
-        x: 835
-        y: 414
-        width: 118
-        height: 117
+        x: 836
+        y: 415
+        width: 116
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1285,10 +1285,10 @@ TextureImporter:
       name: Warrior_Blue_44
       rect:
         serializedVersion: 2
-        x: 1021
-        y: 439
-        width: 61
-        height: 96
+        x: 1022
+        y: 440
+        width: 59
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1307,10 +1307,10 @@ TextureImporter:
       name: Warrior_Blue_45
       rect:
         serializedVersion: 2
-        x: 1075
-        y: 454
-        width: 47
-        height: 45
+        x: 1076
+        y: 455
+        width: 45
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1329,10 +1329,10 @@ TextureImporter:
       name: Warrior_Blue_46
       rect:
         serializedVersion: 2
-        x: 882
-        y: 412
-        width: 29
-        height: 26
+        x: 883
+        y: 413
+        width: 27
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1351,10 +1351,10 @@ TextureImporter:
       name: Warrior_Blue_47
       rect:
         serializedVersion: 2
-        x: 74
-        y: 247
-        width: 64
-        height: 101
+        x: 75
+        y: 248
+        width: 62
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1373,10 +1373,10 @@ TextureImporter:
       name: Warrior_Blue_48
       rect:
         serializedVersion: 2
-        x: 264
-        y: 247
-        width: 68
-        height: 103
+        x: 265
+        y: 248
+        width: 66
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1395,10 +1395,10 @@ TextureImporter:
       name: Warrior_Blue_49
       rect:
         serializedVersion: 2
-        x: 456
-        y: 247
-        width: 68
-        height: 103
+        x: 457
+        y: 248
+        width: 66
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1417,10 +1417,10 @@ TextureImporter:
       name: Warrior_Blue_50
       rect:
         serializedVersion: 2
-        x: 622
-        y: 248
-        width: 118
-        height: 109
+        x: 623
+        y: 249
+        width: 116
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1439,10 +1439,10 @@ TextureImporter:
       name: Warrior_Blue_51
       rect:
         serializedVersion: 2
-        x: 837
-        y: 345
-        width: 47
-        height: 12
+        x: 838
+        y: 346
+        width: 45
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1461,10 +1461,10 @@ TextureImporter:
       name: Warrior_Blue_52
       rect:
         serializedVersion: 2
-        x: 851
-        y: 248
-        width: 86
-        height: 103
+        x: 852
+        y: 249
+        width: 84
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1483,10 +1483,10 @@ TextureImporter:
       name: Warrior_Blue_53
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 247
-        width: 81
-        height: 98
+        x: 604
+        y: 291
+        width: 8
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1505,10 +1505,10 @@ TextureImporter:
       name: Warrior_Blue_54
       rect:
         serializedVersion: 2
-        x: 603
-        y: 290
-        width: 10
-        height: 27
+        x: 614
+        y: 308
+        width: 15
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1527,10 +1527,10 @@ TextureImporter:
       name: Warrior_Blue_55
       rect:
         serializedVersion: 2
-        x: 613
-        y: 307
-        width: 17
-        height: 35
+        x: 1036
+        y: 248
+        width: 79
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1549,10 +1549,10 @@ TextureImporter:
       name: Warrior_Blue_56
       rect:
         serializedVersion: 2
-        x: 18
-        y: 270
-        width: 59
-        height: 26
+        x: 19
+        y: 271
+        width: 57
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1571,10 +1571,10 @@ TextureImporter:
       name: Warrior_Blue_57
       rect:
         serializedVersion: 2
-        x: 212
-        y: 254
-        width: 56
-        height: 33
+        x: 213
+        y: 255
+        width: 54
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1593,10 +1593,10 @@ TextureImporter:
       name: Warrior_Blue_58
       rect:
         serializedVersion: 2
-        x: 404
-        y: 254
-        width: 56
-        height: 33
+        x: 405
+        y: 255
+        width: 54
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1615,10 +1615,10 @@ TextureImporter:
       name: Warrior_Blue_59
       rect:
         serializedVersion: 2
-        x: 75
-        y: 55
-        width: 99
-        height: 94
+        x: 76
+        y: 56
+        width: 97
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1637,10 +1637,10 @@ TextureImporter:
       name: Warrior_Blue_60
       rect:
         serializedVersion: 2
-        x: 267
-        y: 55
-        width: 101
-        height: 93
+        x: 268
+        y: 56
+        width: 99
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1659,10 +1659,10 @@ TextureImporter:
       name: Warrior_Blue_61
       rect:
         serializedVersion: 2
-        x: 459
-        y: 55
-        width: 101
-        height: 93
+        x: 460
+        y: 56
+        width: 99
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1681,10 +1681,10 @@ TextureImporter:
       name: Warrior_Blue_62
       rect:
         serializedVersion: 2
-        x: 584
-        y: 56
-        width: 148
-        height: 102
+        x: 585
+        y: 57
+        width: 146
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1703,10 +1703,10 @@ TextureImporter:
       name: Warrior_Blue_63
       rect:
         serializedVersion: 2
-        x: 724
-        y: 92
-        width: 22
-        height: 22
+        x: 725
+        y: 93
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1725,10 +1725,10 @@ TextureImporter:
       name: Warrior_Blue_64
       rect:
         serializedVersion: 2
-        x: 772
-        y: 94
-        width: 72
-        height: 61
+        x: 773
+        y: 95
+        width: 70
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1747,10 +1747,10 @@ TextureImporter:
       name: Warrior_Blue_65
       rect:
         serializedVersion: 2
-        x: 826
-        y: 56
-        width: 74
-        height: 97
+        x: 827
+        y: 57
+        width: 72
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1769,10 +1769,10 @@ TextureImporter:
       name: Warrior_Blue_66
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 86
-        width: 31
-        height: 57
+        x: 1001
+        y: 87
+        width: 29
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1791,10 +1791,10 @@ TextureImporter:
       name: Warrior_Blue_67
       rect:
         serializedVersion: 2
-        x: 1032
-        y: 55
-        width: 62
-        height: 97
+        x: 1033
+        y: 56
+        width: 60
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1813,7 +1813,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: dc2c1db145417b14e90a1043d58ab876
     internalID: 0
     vertices: []
     indices: 
@@ -1821,7 +1821,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":100.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Warrior_Blue_0: 1448252480329919801
       Warrior_Blue_1: -8838482275237848885
