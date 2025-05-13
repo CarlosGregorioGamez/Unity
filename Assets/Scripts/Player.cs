@@ -29,9 +29,17 @@ public class Player : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            GameManager.Instance.LoseLife();
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.LoseLife();
+            }
+            else
+            {
+                Debug.LogError("GameManager.Instance es null");
+            }
         }
     }
+
 
 
 }
