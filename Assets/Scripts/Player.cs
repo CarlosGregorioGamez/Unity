@@ -21,12 +21,17 @@ public class Player : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         rb.linearVelocity = new Vector2(horizontalInput * speed, verticalInput * speed);
 
-        bool isWalking = horizontalInput != 0f || verticalInput != 0f;
-
-        animator.SetBool("isWalking", isWalking);
-
-       
+        animator.SetFloat("Horizontal", horizontalInput);
+        animator.SetFloat("Vertical", verticalInput);
     }
 
-   
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            GameManager.Instance.LoseLife();
+        }
+    }
+
+
 }
