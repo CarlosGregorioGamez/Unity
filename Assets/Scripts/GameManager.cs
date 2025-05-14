@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            gameOverUI.SetActive(false);    
         }
         else
         {
@@ -34,10 +35,7 @@ public class GameManager : MonoBehaviour
 
         if (playerLives <= 0)
         {
-            if (gameOverUI != null)
-            {
-                gameOverUI.SetActive(true);
-            }
+            gameOverUI.SetActive(true);
             Time.timeScale = 0f;
         }
     }
