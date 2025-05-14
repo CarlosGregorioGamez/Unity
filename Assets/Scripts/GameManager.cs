@@ -2,8 +2,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
-    public int playerLives = 3;
-    public int playerScore = 0;
+    public int playerLives;
+    public int playerScore;
 
     public static GameManager Instance;
     public GameObject gameOverUI;
@@ -14,7 +14,9 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            gameOverUI.SetActive(false);    
+            gameOverUI.SetActive(false);  
+            playerLives = 3;
+            playerScore = 0;   
         }
         else
         {
