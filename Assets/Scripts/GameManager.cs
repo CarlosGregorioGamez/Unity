@@ -6,7 +6,6 @@ public class GameManager : MonoBehaviour
     public int playerScore = 0;
 
     public static GameManager Instance;
-    public GameObject gameOverPrefab;
     public GameObject gameOverUI;
 
     void Awake()
@@ -35,10 +34,11 @@ public class GameManager : MonoBehaviour
 
         if (playerLives <= 0)
         {
-            if (gameOverUI == null)
+            if (gameOverUI != null)
             {
-                gameOverUI = Instantiate(gameOverPrefab);
+                gameOverUI.SetActive(true);
             }
+            Time.timeScale = 0f;
         }
     }
 }
