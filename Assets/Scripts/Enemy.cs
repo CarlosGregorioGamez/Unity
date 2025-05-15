@@ -32,9 +32,9 @@ public class Enemy : MonoBehaviour
     {
         if (other.CompareTag("PlayerAttack"))
         {
-            GameManager.Instance.AddScore(10);
-            Destroy(gameObject); 
+            GameManager.Instance.AddScore(100);
+            GetComponent<Collider2D>().enabled = false;
+            Destroy(gameObject);
         }
     }
-
 }

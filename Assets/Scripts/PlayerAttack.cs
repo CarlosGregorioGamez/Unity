@@ -1,26 +1,34 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerAttack : MonoBehaviour
 {
     public GameObject attackZone;
-    public float attackDuration = 0.2f;
-
-    private bool isAttacking = false;
+    public float attackCooldown = 1f;
+    private float attackTimer = 0f;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !isAttacking)
+        attackTimer -= Time.deltaTime;
+
+        if (attackTimer <= 0f)
         {
             StartCoroutine(DoAttack());
+            attackTimer = attackCooldown;
         }
     }
 
-    private System.Collections.IEnumerator DoAttack()
+    IEnumerator DoAttack()
     {
-        isAttacking = true;
+        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mouseWorldPos.z = 0;
+        Vector2 direction = (mouseWorldPos - transform.position).normalized;
+
+        // Posicionar la zona de ataque hacia el ratón
+        attackZone.transform.localPosition = direction * 0.5f;
+
         attackZone.SetActive(true);
-        yield return new WaitForSeconds(attackDuration);
+        yield return new WaitForSeconds(0.2f);
         attackZone.SetActive(false);
-        isAttacking = false;
     }
 }
