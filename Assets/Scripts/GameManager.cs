@@ -2,8 +2,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
-    public int playerLives;
-    public int playerScore;
+    public int playerLives = 3;
+    public int playerScore = 0;
 
     public static GameManager Instance;
     public GameObject gameOverUI;
@@ -13,16 +13,14 @@ public class GameManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
-            gameOverUI.SetActive(false);  
-            playerLives = 3;
-            playerScore = 0;   
+            gameOverUI.SetActive(false);
         }
-        else
+        else if (Instance != this)
         {
-            Destroy(gameObject);
+            Destroy(gameObject); // se destruye solo si es una copia nueva
         }
     }
+
 
     public void AddScore(int points)
     {
@@ -41,4 +39,18 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 0f;
         }
     }
+
+    public void ResetGame()
+    {
+        playerLives = 3;
+        playerScore = 0;
+
+        if (gameOverUI != null)
+        {
+            gameOverUI.SetActive(false);
+        }
+
+        Time.timeScale = 1f;
+    }
+
 }

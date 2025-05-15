@@ -5,9 +5,10 @@ public class GameOverUI : MonoBehaviour
 {
     public void Retry()
     {
-        Time.timeScale = 1f;
+        GameManager.Instance.ResetGame();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
 
     public void Exit()
     {
