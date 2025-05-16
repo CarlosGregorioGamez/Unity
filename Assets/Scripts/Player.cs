@@ -32,9 +32,14 @@ public class Player : MonoBehaviour
     {
         if (other.CompareTag("Enemy") && !isInvulnerable)
         {
-            StartCoroutine(TakeDamage());
+            Enemy enemy = other.GetComponent<Enemy>();
+            if (enemy != null && !enemy.IsDying())
+            {
+                StartCoroutine(TakeDamage());
+            }
         }
     }
+
     private IEnumerator TakeDamage()
     {
         isInvulnerable = true;

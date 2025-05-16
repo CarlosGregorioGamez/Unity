@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -5,6 +6,7 @@ public class Enemy : MonoBehaviour
     public float speed = 3f;
     private Rigidbody2D rb;
     private Transform target;
+    private bool isDying = false;
 
     void Start()
     {
@@ -28,13 +30,22 @@ public class Enemy : MonoBehaviour
         rb.linearVelocity = direction * speed;
     }
 
+    public bool IsDying()
+    {
+        return isDying;
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (isDying) return;
+
         if (other.CompareTag("PlayerAttack"))
         {
-            GameManager.Instance.AddScore(100);
-            GetComponent<Collider2D>().enabled = false;
+            isDying = true;
+            GameManager.Instance.AddScore(10);
             Destroy(gameObject);
         }
     }
+
+
 }
