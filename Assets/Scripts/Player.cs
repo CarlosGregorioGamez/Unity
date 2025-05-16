@@ -57,7 +57,7 @@ public class Player : MonoBehaviour
                 yield return new WaitForSeconds(0.1f);
                 elapsed += 0.1f;
             }
-            sr.enabled = true; // asegurarse de que quede visible
+            sr.enabled = true; 
         }
         else
         {
