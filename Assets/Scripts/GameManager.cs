@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             gameOverUI.SetActive(false);
+            DontDestroyOnLoad(gameObject);
         }
         else if (Instance != this)
         {
@@ -26,6 +27,11 @@ public class GameManager : MonoBehaviour
     {
         playerScore += points;
         Debug.Log("Score: " + playerScore);
+        if (playerScore >= 100)
+        {
+            SceneManager.LoadScene("Nivel2");
+        }
+
     }
 
     public void LoseLife()
