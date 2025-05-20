@@ -12,7 +12,7 @@ public class GameOverUI : MonoBehaviour
 
     public void Exit()
     {
-        Application.Quit();
-        Debug.Log("Juego cerrado (en editor no se cierra realmente)");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MenuInicio");
     }
 }

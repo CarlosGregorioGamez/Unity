@@ -145,7 +145,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 257
+        width: 256
         height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: Tilemap_Flat_1
       rect:
         serializedVersion: 2
-        x: 270
-        y: 199
-        width: 15
-        height: 9
+        x: 271
+        y: 200
+        width: 13
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +187,10 @@ TextureImporter:
       name: Tilemap_Flat_2
       rect:
         serializedVersion: 2
-        x: 290
-        y: 206
-        width: 11
-        height: 8
+        x: 291
+        y: 207
+        width: 9
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,7 +211,7 @@ TextureImporter:
         serializedVersion: 2
         x: 319
         y: 0
-        width: 258
+        width: 256
         height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -231,9 +231,9 @@ TextureImporter:
       name: Tilemap_Flat_4
       rect:
         serializedVersion: 2
-        x: 607
-        y: 198
-        width: 10
+        x: 258
+        y: 192
+        width: 16
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: Tilemap_Flat_5
       rect:
         serializedVersion: 2
-        x: 626
-        y: 199
-        width: 11
-        height: 8
+        x: 285
+        y: 192
+        width: 31
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +275,10 @@ TextureImporter:
       name: Tilemap_Flat_6
       rect:
         serializedVersion: 2
-        x: 257
-        y: 191
-        width: 18
-        height: 10
+        x: 578
+        y: 192
+        width: 59
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +297,10 @@ TextureImporter:
       name: Tilemap_Flat_7
       rect:
         serializedVersion: 2
-        x: 284
-        y: 191
-        width: 33
-        height: 12
+        x: 602
+        y: 200
+        width: 5
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +319,10 @@ TextureImporter:
       name: Tilemap_Flat_8
       rect:
         serializedVersion: 2
-        x: 577
-        y: 191
-        width: 61
-        height: 11
+        x: 608
+        y: 199
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,9 +341,9 @@ TextureImporter:
       name: Tilemap_Flat_9
       rect:
         serializedVersion: 2
-        x: 601
-        y: 199
-        width: 7
+        x: 627
+        y: 200
+        width: 9
         height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -363,7 +363,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 27d303b3d2714f948b71d02663d0a798
     internalID: 0
     vertices: []
     indices: 
@@ -371,7 +371,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Tilemap_Flat_0: 1270180011647404327
       Tilemap_Flat_1: -773589429321053900

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
@@ -7,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance;
     public GameObject gameOverUI;
+    public bool hasAdvanced;
 
     void Awake()
     {
@@ -14,6 +16,7 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             gameOverUI.SetActive(false);
+            DontDestroyOnLoad(gameObject);
         }
         else if (Instance != this)
         {
@@ -21,11 +24,39 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        string scene = SceneManager.GetActiveScene().name;
+
+        if (!hasAdvanced)
+        {
+            switch (scene)
+            {
+                case "Nivel1":
+                    if (playerScore >= 100)
+                    {
+                        hasAdvanced = true;
+                        SceneManager.LoadScene("Nivel2");
+                    }
+                    break;
+
+                case "Nivel2":
+                    if (playerScore >= 300) // Total acumulado: 100 (antes) + 200
+                    {
+                        hasAdvanced = true;
+                        SceneManager.LoadScene("Nivel3");
+                    }
+                    break;
+            }
+        }
+    }
 
     public void AddScore(int points)
     {
         playerScore += points;
         Debug.Log("Score: " + playerScore);
+       
+
     }
 
     public void LoseLife()
