@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class GameManager : MonoBehaviour
 {
     public int playerLives = 3;
@@ -15,12 +16,32 @@ public class GameManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            gameOverUI.SetActive(false);
             DontDestroyOnLoad(gameObject);
         }
         else if (Instance != this)
         {
-            Destroy(gameObject); // se destruye solo si es una copia nueva
+            Destroy(gameObject); // Elimina copias duplicadas
+        }
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    // Esto se llama automáticamente al cargar cada escena
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        GameObject ui = GameObject.Find("GameOverUI");
+        if (ui != null)
+        {
+            gameOverUI = ui;
+            gameOverUI.SetActive(false); // Asegúrate de que no aparezca al cargar
         }
     }
 
@@ -41,10 +62,10 @@ public class GameManager : MonoBehaviour
                     break;
 
                 case "Nivel2":
-                    if (playerScore >= 300) // Total acumulado: 100 (antes) + 200
+                    if (playerScore >= 300)
                     {
                         hasAdvanced = true;
-                        SceneManager.LoadScene("Nivel3");
+                        SceneManager.LoadScene("MainMenu");
                     }
                     break;
             }
@@ -55,8 +76,6 @@ public class GameManager : MonoBehaviour
     {
         playerScore += points;
         Debug.Log("Score: " + playerScore);
-       
-
     }
 
     public void LoseLife()
@@ -66,7 +85,10 @@ public class GameManager : MonoBehaviour
 
         if (playerLives <= 0)
         {
-            gameOverUI.SetActive(true);
+            if (gameOverUI != null)
+            {
+                gameOverUI.SetActive(true);
+            }
             Time.timeScale = 0f;
         }
     }
@@ -75,13 +97,15 @@ public class GameManager : MonoBehaviour
     {
         playerLives = 3;
         playerScore = 0;
+        hasAdvanced = false;
 
         if (gameOverUI != null)
         {
             gameOverUI.SetActive(false);
+            Debug.Log("Mensaje desactiva UI");
         }
 
         Time.timeScale = 1f;
     }
-
 }
+
