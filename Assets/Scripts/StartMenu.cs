@@ -7,6 +7,12 @@ public class StartMenu : MonoBehaviour
     public GameObject mainMenuPanel;  
     public GameObject controlsPanel;
 
+
+    void Start()
+    {
+        controlsPanel.SetActive(false);
+        mainMenuPanel.SetActive(true);
+    }
     public void Play()
     {
         SceneManager.LoadScene("Nivel1");
