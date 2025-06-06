@@ -15,8 +15,14 @@ public class StartMenu : MonoBehaviour
     }
     public void Play()
     {
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.ResetGame();
+        }
+
         SceneManager.LoadScene("Nivel1");
     }
+
 
     public void Exit()
     {
