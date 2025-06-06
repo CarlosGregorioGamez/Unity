@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
         }
         else if (Instance != this)
         {
-            Destroy(gameObject); // Elimina copias duplicadas
+            Destroy(gameObject);
         }
     }
 
@@ -34,14 +34,20 @@ public class GameManager : MonoBehaviour
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
-    // Esto se llama automáticamente al cargar cada escena
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        Debug.Log("Escena cargada: " + scene.name);
+
         GameObject ui = GameObject.Find("GameOverUI");
         if (ui != null)
         {
+            Debug.Log("GameOverUI encontrado");
             gameOverUI = ui;
-            gameOverUI.SetActive(false); // Asegúrate de que no aparezca al cargar
+            gameOverUI.SetActive(false);
+        }
+        else
+        {
+            Debug.LogWarning("GameOverUI NO encontrado en " + scene.name);
         }
     }
 
@@ -58,11 +64,13 @@ public class GameManager : MonoBehaviour
                     {
                         hasAdvanced = true;
                         SceneManager.LoadScene("Nivel2");
+                        playerScore = 0;
+                        playerLives = 3;
                     }
                     break;
 
                 case "Nivel2":
-                    if (playerScore >= 300)
+                    if (playerScore >= 200)
                     {
                         hasAdvanced = true;
                         SceneManager.LoadScene("MainMenu");
@@ -85,10 +93,17 @@ public class GameManager : MonoBehaviour
 
         if (playerLives <= 0)
         {
+            Debug.Log("Se activa el GameOverUI en escena: " + SceneManager.GetActiveScene().name);
+
             if (gameOverUI != null)
             {
                 gameOverUI.SetActive(true);
             }
+            else
+            {
+                Debug.LogWarning("gameOverUI es null en " + SceneManager.GetActiveScene().name);
+            }
+
             Time.timeScale = 0f;
         }
     }
@@ -108,4 +123,3 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 }
-
