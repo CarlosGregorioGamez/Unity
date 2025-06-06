@@ -73,7 +73,7 @@ public class GameManager : MonoBehaviour
                     if (playerScore >= 200)
                     {
                         hasAdvanced = true;
-                        SceneManager.LoadScene("MainMenu");
+                        SceneManager.LoadScene("FinPartida");
                     }
                     break;
             }
