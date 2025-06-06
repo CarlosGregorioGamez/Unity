@@ -22,11 +22,15 @@ public class Player : MonoBehaviour
     {
         verticalInput = Input.GetAxisRaw("Vertical");
         horizontalInput = Input.GetAxisRaw("Horizontal");
-        rb.linearVelocity = new Vector2(horizontalInput * speed, verticalInput * speed);
 
+        Vector2 movement = new Vector2(horizontalInput, verticalInput).normalized;
+        rb.linearVelocity = movement * speed;
+
+        animator.SetFloat("Speed", rb.linearVelocity.magnitude);
         animator.SetFloat("Horizontal", horizontalInput);
         animator.SetFloat("Vertical", verticalInput);
     }
+
 
     void OnTriggerEnter2D(Collider2D other)
     {
