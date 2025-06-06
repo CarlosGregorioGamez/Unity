@@ -335,7 +335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackZone: {fileID: 1272422219}
-  attackCooldown: 1
+  attackCooldown: 0.8
 --- !u!1 &444113448
 GameObject:
   m_ObjectHideFlags: 0
@@ -1397,6 +1397,7 @@ MonoBehaviour:
   playerLives: 3
   playerScore: 0
   gameOverUI: {fileID: 1028071876}
+  hasAdvanced: 0
 --- !u!1 &1085701537
 GameObject:
   m_ObjectHideFlags: 0
