@@ -5377,14 +5377,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 724774455600120574, guid: 372bcda72478f074cb51eab8b21f4ef2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8343849038519295960}
+      addedObject: {fileID: 8343849038519295966}
   m_SourcePrefab: {fileID: 100100000, guid: 372bcda72478f074cb51eab8b21f4ef2, type: 3}
 --- !u!1 &8343849038519295959 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 724774455600120574, guid: 372bcda72478f074cb51eab8b21f4ef2, type: 3}
   m_PrefabInstance: {fileID: 8343849038519295958}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &8343849038519295960
+--- !u!95 &8343849038519295966
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -5394,7 +5394,7 @@ Animator:
   m_GameObject: {fileID: 8343849038519295959}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5dab4f2f4739b3f438d37ef8d99c439f, type: 2}
+  m_Controller: {fileID: 9100000, guid: fc11a0e5fb410a44fb48d09722eba3b7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
