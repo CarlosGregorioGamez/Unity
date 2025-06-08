@@ -38,6 +38,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Escena cargada: " + scene.name);
 
+        // Reasignar GameOverUI
         GameObject ui = GameObject.Find("GameOverUI");
         if (ui != null)
         {
@@ -48,6 +49,26 @@ public class GameManager : MonoBehaviour
         else
         {
             Debug.LogWarning("GameOverUI NO encontrado en " + scene.name);
+        }
+
+        // Reasignar y actualizar HUDController
+        GameObject hudCanvas = GameObject.Find("HUDCanvas");
+        if (hudCanvas != null)
+        {
+            var hud = hudCanvas.GetComponent<HUDController>();
+            if (hud != null)
+            {
+                Debug.Log("HUDController encontrado, forzando actualización");
+                hud.ForceUpdate();
+            }
+            else
+            {
+                Debug.LogWarning("HUDController no encontrado en HUDCanvas.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("HUDCanvas no encontrado en " + scene.name);
         }
     }
 
