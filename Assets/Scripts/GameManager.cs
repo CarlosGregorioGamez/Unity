@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -38,6 +38,42 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Escena cargada: " + scene.name);
 
+        // 🧹 Eliminar HUDs duplicados si los hay
+        GameObject[] huds = GameObject.FindGameObjectsWithTag("HUD");
+        if (huds.Length > 1)
+        {
+            for (int i = 1; i < huds.Length; i++)
+            {
+                Destroy(huds[i]);
+            }
+        }
+
+        // 🔁 Reconectar HUD actual
+        GameObject hudCanvas = GameObject.FindWithTag("HUD");
+        if (hudCanvas != null)
+        {
+            var hud = hudCanvas.GetComponent<HUDController>();
+            if (hud != null)
+            {
+                Debug.Log("HUDController encontrado, forzando actualización");
+                hud.ForceUpdate();
+            }
+            else
+            {
+                Debug.LogWarning("HUDController no encontrado en HUDCanvas.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("HUDCanvas no encontrado en " + scene.name);
+        }
+
+        // 🎯 Reinicia hasAdvanced si entras a Nivel2
+        if (scene.name == "Nivel2")
+        {
+            hasAdvanced = false;
+        }
+
         // Reasignar GameOverUI
         GameObject ui = GameObject.Find("GameOverUI");
         if (ui != null)
@@ -50,54 +86,31 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogWarning("GameOverUI NO encontrado en " + scene.name);
         }
-
-        // Reasignar y actualizar HUDController
-        GameObject hudCanvas = GameObject.Find("HUDCanvas");
-        if (hudCanvas != null)
-        {
-            var hud = hudCanvas.GetComponent<HUDController>();
-            if (hud != null)
-            {
-                Debug.Log("HUDController encontrado, forzando actualizaci�n");
-                hud.ForceUpdate();
-            }
-            else
-            {
-                Debug.LogWarning("HUDController no encontrado en HUDCanvas.");
-            }
-        }
-        else
-        {
-            Debug.LogWarning("HUDCanvas no encontrado en " + scene.name);
-        }
     }
 
     void Update()
     {
         string scene = SceneManager.GetActiveScene().name;
 
-        if (!hasAdvanced)
+        switch (scene)
         {
-            switch (scene)
-            {
-                case "Nivel1":
-                    if (playerScore >= 100)
-                    {
-                        hasAdvanced = true;
-                        SceneManager.LoadScene("Nivel2");
-                        playerScore = 0;
-                        playerLives = 3;
-                    }
-                    break;
+            case "Nivel1":
+                if (!hasAdvanced && playerScore >= 100)
+                {
+                    hasAdvanced = true;
+                    SceneManager.LoadScene("Nivel2");
+                    playerScore = 0;
+                    playerLives = 3;
+                }
+                break;
 
-                case "Nivel2":
-                    if (playerScore >= 200)
-                    {
-                        hasAdvanced = true;
-                        SceneManager.LoadScene("FinPartida");
-                    }
-                    break;
-            }
+            case "Nivel2":
+                if (!hasAdvanced && playerScore >= 200)
+                {
+                    hasAdvanced = true;
+                    SceneManager.LoadScene("FinPartida");
+                }
+                break;
         }
     }
 
